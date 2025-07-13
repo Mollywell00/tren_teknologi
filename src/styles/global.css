@@ -1,0 +1,36 @@
+@import "./fonts.css";
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", "sans-serif";
+  --font-barlow: "Barlow", "sans-serif";
+  --font-barlow-condensed: "Barlow Condensed", "sans-serif";
+
+  --bg-primary-cray: #F5F7FA;
+  --bg-secondary-cray: #CADBEA;
+  --bg-tertiary-cray: #DFF3FF;
+
+  --text-color-black: #1E1E1E;
+  --text-color-grey: #98A2B3;
+
+  --my-width-nav: calc(100% - 32px);
+
+
+}
+
+:root,
+#root {
+  font-family: var(--font-barlow-condensed);
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--bg-primary-cray);
+
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
