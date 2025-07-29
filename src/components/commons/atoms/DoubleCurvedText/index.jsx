@@ -26,7 +26,7 @@ const DoubleCurvedText = ({ type }) => {
           startOffset="50%"
           textAnchor="middle"
         >
-          {type === "top" ? "Mulai Sekarang" : "Temukan Kami"}
+          {type === "top" ? "Mulai Sekarang" : "Mulai Sekarang"}
         </textPath>
       </text>
     </svg>

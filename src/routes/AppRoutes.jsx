@@ -1,5 +1,6 @@
 import MainLayout from "../components/layouts/MainLayout";
 import AboutPage from "../pages/AboutPage";
+import ChatPage from "../pages/ChatPage";
 import HomePage from "../pages/HomePage";
 import NotFound from "../pages/NotFound";
 import SkillsPage from "../pages/SkillsPage";
@@ -30,6 +31,12 @@ const routes = [
         name: "skills",
         path: "/testimoni",
         Component: SkillsPage,
+      },
+      {
+        key: "chat",
+        name: "chat",
+        path: "/chat",
+        Component: ChatPage,
       },
     ],
   },

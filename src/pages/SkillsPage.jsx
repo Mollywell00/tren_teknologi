@@ -30,19 +30,6 @@ const SkillsPage = () => {
               />
             ))}
           </div>
-
-          {/* <div className="flex w-1/2 flex-col gap-4 py-6 max-md:w-full">
-            {listProjects.map((item, index) => (
-              <CardLarge
-                key={index}
-                img={item.background}
-                text={item.desc}
-                title={item.title}
-                tech={item.list_tech}
-                onClick={() => setDataProject(item)}
-              />
-            ))}
-          </div> */}
         </div>
       </section>
 

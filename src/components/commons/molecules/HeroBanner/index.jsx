@@ -19,10 +19,7 @@ const HeroBanner = () => {
       <div className="absolute -bottom-18 left-1/2 h-32 w-32 -translate-x-1/2 transform rounded-full bg-(--bg-primary-cray)" />
       <div
         className="absolute -bottom-16 left-1/2 flex h-28 w-28 -translate-x-1/2 transform cursor-pointer flex-col items-center justify-center gap-2 rounded-full bg-(--bg-secondary-cray) shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"
-        onClick={() => {
-          window.location.href =
-            "mailto:your_email@example.com?subject=Subject&body=message%20goes%20here";
-        }}
+        onClick={() => navigate("/chat")}
       >
         <div className="absolute top-1 left-1/2 flex h-27 w-27 -translate-x-1/2 transform flex-col items-center justify-center gap-2 rounded-full ">
           <DoubleCurvedText type="top" />
